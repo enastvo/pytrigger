@@ -1,5 +1,10 @@
+bcrypt==3.1.7
+cffi==1.14.0
 colorzero==1.1
+cryptography==2.9.2
 gpiozero==1.5.1
-picamera==1.13
-RPi.GPIO==0.7.0
-RPIO==0.10.0
+paramiko==2.7.1
+pycparser==2.20
+PyNaCl==1.4.0
+scp==0.13.2
+six==1.15.0
