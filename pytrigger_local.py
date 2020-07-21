@@ -5,16 +5,7 @@ import datetime
 import picamera
 import os
 import shutil
-
-# scp stuff
 from scp_send import pi_scp_send as ps
-
-# email stuff
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
 import argparse
 
 parser = argparse.ArgumentParser(description="start up the PIR sensor")
